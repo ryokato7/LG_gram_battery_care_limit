@@ -1,0 +1,2 @@
+# LG_gram_battery_care_limit
+LG gramでLinuxを使用する際にバッテリー充電を80%にするシェルスクリプト
