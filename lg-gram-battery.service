@@ -1,0 +1,12 @@
+[Unit]
+Description = lg-gram battery saver
+After=local-fs.target
+ConditionPathExists=/opt/lggram/bin
+
+[Service]
+ExecStart=/opt/lggram/bin/battery-saver.sh
+Restart=no
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
